@@ -2,10 +2,8 @@
 #include<stdio.h>
 int main(){
     int radius;
-    int pie;
-    pie=3.14;
     scanf("%d",&radius);
-    area=(4/3)*pie*r*r*r;
+    area=(4/3)*3.14*r*r*r;
     printf("Area: %f",area);
     return 0;
 }
