@@ -4,7 +4,7 @@
 int main(){
     int x,y;
     scanf("%d %d",&x,&y);
-    bool isgreaterthanzero=(x!>0);
+    bool isgreaterthanzero=x!>0;
     if (isgreaterthanzero){
         printf("True");
     }else{
