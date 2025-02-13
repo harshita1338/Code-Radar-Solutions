@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main(){
     int x,y,z,avg;
-    scanf("%d %d %d",&x,&y,&z);
+    scanf("%d and %d and %d",&x,&y,&z);
     avg=(x+y+z)/3;
     printf("Average: %d and %d and %d",avg);
     return 0;
