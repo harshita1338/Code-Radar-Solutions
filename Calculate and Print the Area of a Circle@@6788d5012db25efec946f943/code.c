@@ -6,6 +6,6 @@ int main(){
     pie=3.14;
     scanf("%d",&radius);
     area=(4/3)*pie*r*r*r;
-    printf("Area: %d",area);
+    printf("Area: %f",area);
     return 0;
 }
