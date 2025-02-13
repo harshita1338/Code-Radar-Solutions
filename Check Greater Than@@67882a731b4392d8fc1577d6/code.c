@@ -2,10 +2,12 @@
 #include<stdio.h>
 int main(){
     int x,y;
-    scanf("%d %d",x,y);
-    if{
-        x>y;
+    scanf("%d %d",&x,&y);
+    bool isgreater=x>y;
+    if(isgreater){
+    printf("True");
+    }else{
+        printf("False");
     }
-    printf("True")
     return 0;
 }
