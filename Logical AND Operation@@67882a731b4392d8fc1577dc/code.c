@@ -5,7 +5,7 @@ int main(){
     int x,y;
     scanf("%d %d",&x,&y);
     bool isgreaterthanzero=(x>0) && (y>0);
-    if isgreaterthanzero{
+    if (isgreaterthanzero){
         printf("True");
     }else{
         printf("False");
