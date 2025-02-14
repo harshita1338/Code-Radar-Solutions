@@ -14,10 +14,10 @@ int main(){
     if(!(x>0 && y>0)){
         printf("True");
     }
-    else if(x>=0 && y<0){
+    else if(x>0 && y<0){
         printf("False");
     }
-    else if(y>=0 && x<0){
+    else if(y>0 && x<0){
         printf("False");
     }
     else{
