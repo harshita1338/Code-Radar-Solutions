@@ -3,8 +3,8 @@
 #include<stdbool.h>
 int main(){
     int x,y;
-    scanf("%d and %d",&x,&y);
-    bool isgreaterzero=(!(x>o && y>0));
+    scanf("%d %d",&x,&y);
+    bool isgreaterzero=!(x>o && y>0);
     if (isgreaterzero){
         printf("True");
     }
