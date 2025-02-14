@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int x{
+    int x;
         scanf("%d",&x);
         if (x>0){
             printf("Positive");
@@ -12,6 +12,5 @@ int main(){
         else{
             printf("Zero");
         }
-    }
     return 0;
 }
