@@ -4,9 +4,9 @@
 int main(){
     int x,y;
     scanf("%d %d",&x,&y);
-    bool isgreaterzero=!(x>o || y>0);
+    bool isgreaterzero=!(x>o && y>0);
     if (isgreaterzero){
-        printf("True");
+        printf(" True");
     }
     else{
         printf("False");
