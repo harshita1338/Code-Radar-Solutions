@@ -6,6 +6,6 @@ int main(){
     x^=y;
     y^=x;
     x^=y;
-    printf("%d %d",a,b);
+    printf("%d %d",x,y);
     return 0;
 }
