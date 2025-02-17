@@ -22,7 +22,10 @@ int main(){
         printf("Saturday");
     }
     else if(x==7){
-        printf("Invalid");
+        printf("Sunday");
+    }
+    else{
+        printf("Invalid")
     }
     return 0;
 }
