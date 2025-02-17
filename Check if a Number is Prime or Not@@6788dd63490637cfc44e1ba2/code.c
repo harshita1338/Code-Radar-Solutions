@@ -15,7 +15,7 @@ int main(){
         }
             else{
             print("Not Prime");
-        }
+            }
     }
     return 0;
 }
