@@ -1,13 +1,20 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int x;
+    int x,i;
     scanf("%d",&x);
-    if(x>1 && x%x==0){
-        printf("Prime");
-    }
-    else{
+    if(x<1){
         printf("Not Prime");
+    }
+    else if{
+        for(i>2;i<=sqrt(x);i++){
+            if(x%i==0){
+                print("Prime");
+            }
+        }
+        else{
+            print("Not Prime");
+        }
     }
     return 0;
 }
