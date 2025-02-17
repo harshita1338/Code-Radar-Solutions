@@ -6,8 +6,11 @@ int main(){
     if(x>y){
         printf("Loss");
     }
-    else{
+    else if(x<y){
         printf("Profit");
+    }
+    else{
+        printf("No Profit No Loss");
     }
     return 0;
 }
