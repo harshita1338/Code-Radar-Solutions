@@ -17,10 +17,10 @@ int main(){
         printf("%.0f",x/y);
     }
     else if(y==0 && ch=='/'){
-        printf("Error");
+        printf("error");
     }
     else{
-        printf("Error");
+        printf("error");
     }
     return 0;
 }
