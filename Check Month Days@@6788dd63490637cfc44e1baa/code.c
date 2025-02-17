@@ -11,7 +11,7 @@ int main(){
             printf("31");
         }
         else{
-            printf("28")
+            printf("28");
             }
     }
     else if(x>=6 && x<=12){
