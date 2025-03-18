@@ -1,2 +1,3 @@
 // Your code here...
-#include<stdio.h>v fb g hg gmhghmm
+printf("%d",1);
+printf("%d",0);
