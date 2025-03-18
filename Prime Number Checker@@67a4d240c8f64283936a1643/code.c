@@ -1,7 +1,8 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int n;
+    int 0;
+    int 1;
     printf("%d",0);
     printf("%d",1);
     printf("%d",1);
